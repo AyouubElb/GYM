@@ -1,0 +1,48 @@
+section{
+    background-color: rgba(255, 255, 255, 0.795);
+}
+
+section h5{
+    color:#79d204;
+}
+
+section form{
+    border-radius: 6px;
+    box-shadow: 0px 0px 6px #505050;
+    background-color: rgba(255, 255, 255, 0.795);
+}
+
+section input{
+    width: 85%;
+}
+
+section button {
+    background-color: #79d204;
+    border: none;
+    font-weight: 600;
+    color: white;
+    border: #79d204 2px solid;
+    box-shadow: 0px 0px 6px #00000080;
+}
+
+section img{
+    width: 81%;
+}
+
+footer .container img{
+    width: 100px;
+    height: 80px;
+}
+
+footer .container h4 {
+    color:#79d204;
+}
+
+footer .container h6 a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .container h6 a:hover {
+    color: #1877F2;
+}

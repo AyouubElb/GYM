@@ -1,0 +1,45 @@
+a{
+  text-decoration: none;
+  color: black;
+}
+
+/*
+nav {
+    position: fixed;
+    top: 0;
+    width: 100%; 
+    z-index: 1;
+}
+*/
+
+li span a{
+    font-size: 17px;
+    color: black;
+    position: relative;
+}
+
+/*
+li span a:hover{
+  color: #FA600A ;
+}
+*/
+
+li span a:after {
+  content: "";
+  position: absolute;
+  top: 105%;
+  left: 0%;
+   width: 0%;
+   height: 15%;
+  background-color: black;
+}
+
+li span a:hover::after {
+    width: 30px;
+  transition: 0.5s ease-in-out;
+}
+
+.navbar-brand img{
+    width: 80px;
+    height: 70px;
+}

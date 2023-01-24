@@ -1,0 +1,52 @@
+<!-- Nav -->
+
+<nav class="navbar navbar-expand-md navbar-dark py-0 fixed-top"  [@navbar]="isStart? 'start' : 'after'">
+  <div class="container">
+    <a class="navbar-brand" routerLink="/">
+      <img src="../../../../assets/media/icon.png" alt="" >
+      </a>
+      <button class="navbar-toggler bg-dark" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasDarkNavbar" aria-controls="offcanvasDarkNavbar">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="offcanvas offcanvas-start bg-color-light" 
+           tabindex="-1" id="offcanvasDarkNavbar" 
+           aria-labelledby="offcanvasDarkNavbarLabel"
+      >
+        <div class="offcanvas-header">
+          <a class="navbar-brand" routerLink="/">
+            <img src="../../../../assets/media/icon.png" alt="" >
+            </a>
+          <button type="button" class="btn-close btn-close-dark" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+        </div>
+        <div class="offcanvas-body justify-content-between">
+          <ul class="navbar-nav mr-auto mt-3 mb-2">
+            <li class="nav-item mx-4" >
+              <span>
+                <a class="nav-link py-0 px-0" routerLink="/" >HOME</a>
+              </span>
+            <li class="nav-item dropdown mx-4">
+              <span data-bs-toggle="dropdown" role="button">
+                <a class="nav-link py-0" href="#" >CLUB</a>
+              </span>                    
+              <ul class="dropdown-menu mt-3">
+                <li><a class="dropdown-item" routerLink="/club/activite">Activités</a></li>
+                <li><a class="dropdown-item" routerLink="/club/espaces">Espaces</a></li>
+              </ul>
+            </li>
+            <li class="nav-item mx-4">
+              <span>
+                <a class="nav-link py-0 px-0" routerLink="/contact">CONTACT</a>
+              </span>
+          </li>
+          </ul>
+          <button type="button" class="btn btn-dark my-2" (click)="toSignUp()" >S'inscrire</button>
+        </div>
+      </div>
+  </div>
+  
+  <!-- **********-->
+  </nav>
+
+<!-- END OF NAV -->  
+  
+  

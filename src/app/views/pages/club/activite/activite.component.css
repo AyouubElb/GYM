@@ -1,0 +1,136 @@
+a{
+    text-decoration: none;
+    color: black;
+    cursor: pointer;
+}
+
+
+.section1{
+    background-image: url('../../../../../assets/media/backroung_activities.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 355px;
+    width: 1381px;
+    margin-top: 70px;
+}
+
+.section1 .container h1 {
+    font-size: 60px;
+    font-weight: 700;
+    line-height: 0.8;
+    color: whitesmoke;
+}
+
+.section1 .container h1 span{
+    color: #79d204;
+}
+
+.section2{
+  background-color: #ace532;
+  width: 1381px;
+  box-shadow: inset -20px 36px 127px #00000094;
+}
+
+
+.section2 img {
+    width: 160px;
+    height: 220px;
+}
+
+.activity_describ {
+    color: white;
+}
+
+.activity_describ h3 {
+    font-size: 50px;
+    letter-spacing: -2px;
+}
+
+.activity_describ p {
+    font-size: 18px;
+    text-align: start;
+}
+
+ #activities_pic{
+    width: 220px;
+    height: 234px;
+    position: relative;
+    border-top-right-radius: 20px;
+}
+
+ #activities_pic p{
+    position: absolute;
+    bottom: 8px;
+    color: white;
+    font-size: 20px;
+    font-weight: 700;
+    color: white;
+    cursor: pointer;
+}
+
+ #activities_pic p:hover {
+   color: #79d204;
+}
+
+ .activities_text {
+    background-color: white;
+    width: 220px;
+    height: 200px;
+    text-align: start;
+    border-bottom-left-radius:20px ;
+}
+
+ .activities_text a:hover {
+    color: rgb(0, 34, 255);
+}
+
+.section3 {
+    background-color: #f99e00;
+    width: 1381px;
+    box-shadow: inset -20px 36px 127px #00000094;
+}
+
+.section3 img {
+    width: 160px;
+    height: 265px;
+}
+
+.section4 {
+    background-color: #dd1c1c;
+    width: 1381px;
+}
+
+.section4 img {
+    width: 160px;
+    height: 265px;
+}
+
+.section5 {
+    background-color: #8d49af;
+    width: 1381px;
+    box-shadow: inset -20px 36px 127px #00000094;
+}
+
+.section5 img {
+    width: 200px;
+    height: 265px;
+}
+
+footer .container img{
+    width: 100px;
+    height: 80px;
+}
+
+footer .container h4 {
+    color:#79d204;
+}
+
+footer .container h6 a {
+    text-decoration: none;
+    color: black;
+}
+
+footer .container h6 a:hover {
+    color: #1877F2;
+}
+

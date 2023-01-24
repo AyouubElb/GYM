@@ -1,0 +1,50 @@
+
+h1{
+    font-size: 50px;
+    font-weight: 700;
+    color: #3d61ad;
+}
+
+#left{
+    background-color: #8ebfdf;
+    height: 600px;
+}
+
+#left p {
+    color: #ffe800;
+    font-weight: 500;
+}
+
+.form-control{
+    width: 70%;
+    background: #f3f6f9;
+    border: none;
+    height: 45px;
+}
+
+form p {
+    font-size: 21px;
+    font-weight: 600;
+    color: #405b98;
+}
+
+.password_text {
+    width: 69%;
+}
+
+.password_text a {
+    color: #0d6efd;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.password_text a:hover{
+    text-decoration: underline;
+}
+
+.btn-primary{
+    background-color: #2b3f62;
+    margin-top: -20px;
+    border: none;
+}
+

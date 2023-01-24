@@ -1,0 +1,391 @@
+
+<section class="section1">
+    <div class="container">
+        <br><br> <br><br>
+        <div class="row">
+            <div class="col-md-3">
+                <button type="button" class="btn btn-light" align="center">
+                    <i class="bi bi-instagram"></i>
+                </button> <br>
+                <button type="button" class="btn btn-light">
+                    <i class="bi bi-facebook"></i>
+                </button> <br>
+                <button type="button" class="btn btn-light">
+                    <i class="bi bi-linkedin"></i>
+                </button> <br>
+                <button type="button" class="btn btn-light">
+                    <i class="bi bi-youtube"></i>
+                </button>
+            </div>
+            <div class="col-md-6" align="center">
+                <h1 style="color: white;">PROMOTION</h1>
+                <h3>JUSQU'AU 08 JANVIER</h3>
+                <br>
+                <div class="offre">
+                    <h1 class="price my-0">1225<sup class="mx-1">DH</sup></h1>
+                        <p >L'ANNÉE DE FITNESS</p>
+                </div>
+                <br> <br>
+                <div data-aos="fade-right">
+                    <h2>
+                        <span style="color: white;text-align: center;" *ngIf="value[0] != false">
+                           <span style="color: #97ef26;">NOUVEAUX</span>  
+                           <br> CONCEPTS
+                        </span>
+                    </h2>
+                    <h2>
+                        <span style="color: white;text-align: center;" *ngIf="value[1] != false">
+                           <span style="color: #97ef26;">RESEAUX</span>  
+                           <br> NATIONAL
+                        </span>
+                    </h2>
+                    <h2>
+                        <span style="color: white;text-align: center;" *ngIf="value[2] != false">
+                           <span style="color: #97ef26;">+600</span>  
+                           <br> COACHS
+                        </span>
+                    </h2>
+                    <h2>
+                        <span style="color: white;text-align: center;" *ngIf="value[3] != false">
+                           <span style="color: #97ef26;">ESPACES</span>  
+                           <br> FEMMES
+                        </span>
+                    </h2>
+                    <h2>
+                        <span style="color: white;text-align: center;" *ngIf="value[4] != false">
+                           <span style="color: #97ef26;">BILAN</span>  
+                           <br> SPORTIF
+                        </span>
+                    </h2>
+                </div>
+                <div>
+                    <i class="bi bi-circle-fill mx-2" ></i>
+                    <i class="bi bi-circle-fill mx-2"></i>
+                    <i class="bi bi-circle-fill mx-2"></i>
+                    <i class="bi bi-circle-fill mx-2"></i>
+                    <i class="bi bi-circle-fill mx-2"></i>
+                </div>
+            </div>
+        </div>
+        <br><br>
+    </div>
+</section>
+<section class="section2">
+    <br><br>
+    <div class="container" align="center">
+        <div data-aos="fade-left" >
+            <h3>DÉCOUVREZ NOTRE CONCEPT <br>
+                <span>& PARTAGEZ NOTRE PASSION</span>
+             </h3>
+        </div>
+        <div class="row mx-auto my-4" data-aos="fade-up">
+            <div class="col-md-3">
+                <img src="../../../../assets/media/concept.jpg">
+                <div class="my-3">
+                    <a href="#" >CONCEPT</a>
+                    <i class="bi bi-caret-right-fill mx-1"></i>
+                </div>
+            </div>
+            <div class="col-md-3" (click)="toActivity()">
+                <img src="../../../../assets/media/activites.jpg">
+                <div class="my-3">
+                    <a routerLink="club/activite">ACTIVITÉS</a>
+                    <i class="bi bi-caret-right-fill mx-1"></i>
+                </div>
+            </div>
+            <div class="col-md-3" (click)="toClub()">
+                <img src="../../../../assets/media/clubs.jpg">
+                <div class="my-3">
+                    <a routerLink="club/espaces">CLUB</a>
+                    <i class="bi bi-caret-right-fill mx-1"></i>
+                </div>
+            </div>
+            <div class="col-md-3">
+                <img src="../../../../assets/media/abonnement.jpg">
+                <div class="my-3">
+                    <a href="#">ABONNEMENT</a>
+                    <i class="bi bi-caret-right-fill mx-1"></i>
+                </div>
+            </div>
+        </div>
+    </div>
+  
+</section>
+<section class="section3" >
+    <div class="row">
+        <div class="col-md-5" id="background2">
+            <img src="../../../../assets/media/background2.jpg">
+        </div>
+        <div class="col-md-2"></div>
+        <div class="col-md-3 my-5" id="text1" data-aos="fade-left">
+            <h2>Lift with confidence. Sweat with purpose.</h2>
+            <br>
+            <p>The moment you step into the United Front Community Fitness you will be inspired to push a little harder, sweat a little longer, and believe in yourself a little more. With each day, you will lift with confidence and sweat with purpose alongside a community that’s here to support you – no matter what.
+                <br><br>
+                Free Class</p>
+        </div>
+    </div>
+</section>
+<div class="quote">
+    <div class="row py-3">
+        <div class="col-md-3" align="right">
+            <img src="../../../../assets/media/icon.png">
+        </div>
+        <div class="col-md-6 mt-3" align="center">
+            <h1>{{quote}}</h1>
+        </div>
+        <div class="col-md-3" align="left">
+            <img src="../../../../assets/media/icon.png">
+        </div>
+    </div>
+</div>
+<section class="section4" >
+    <br><br>
+    <div class="container" align="center">
+        <h2>
+            RÉSERVER <br>
+            <span>VOTRE SÉANCE</span>
+        </h2>
+        <br>
+        <div class="row">
+            <div class="col-md-2"></div>
+            <div class="col-md-4 mx-0 px-4 py-3" align="left" id="formulaire">
+                <h5>RÉSERVEZ <br>
+                    VOTRE SÉANCE <br>
+                    D’ESSAI CHEZ "" CLUB
+                </h5><br>
+                <p>
+                    Vous hésitez encore à faire du sport ? <br>
+                     Vous avez envie de découvrir vos clubs, espaces, activités et coachs ? <br>
+                      Réservez gratuitement votre séance d’essai !
+                </p>
+                <form >
+                    <div class="mb-2">
+                        <input type="text" placeholder="Nom" class="form-control" 
+                               ngModel name="lastname" #lastName="ngModel" required pattern="[a-zA-Z]">
+                        <div class="alert alert-danger" *ngIf="lastName.touched && !lastName.valid">
+                            Ce champ est obligatoire
+                        </div> 
+                        <p>{{lastName.valid}}-{{lastName.touched}}</p>      
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" placeholder="Prénom" class="form-control"
+                               ngModel name="firstname" #firstName>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" placeholder="Téléphone" class="form-control"
+                               ngModel name="Phone" #phone>
+                    </div>
+                    <div class="mb-3">
+                        <input type="text" placeholder="Email" class="form-control"
+                                ngModel name="Email" #email>
+                    </div>
+                    <div class="mb-3 my-3" align="center">
+                        <button type="submit" class="btn btn-primary active">Réserver</button>
+                    </div>
+                </form>
+            </div>    
+            <div class="col-md-4 mx-0 px-0" id="image" align="left">
+                <img src="../../../../assets/media/image-1.jpg" alt="" >
+            </div>
+        </div>
+    </div>
+    <br><br>
+</section>
+<footer>
+    <br><br>
+    <div class="containers" [ngSwitch]="whichActualite">
+        <div class="container" align="center" *ngSwitchCase="'actualite1'">
+            <h3>
+                SUIVEZ <span>NOTRE ACTUALITÉ</span>
+            </h3> 
+            <div class="actualite my-4">
+                <div class="row">
+                    <div class="col-md-6" data-aos="zoom-in">
+                        <img src="../../../../assets/media/actualite1.jpg" >
+                    </div>
+                    <div class="col-md-6" align="left" >
+                        <h6>PRATIQUER DU SPORT AVEC UN EMPLOI DU TEMPS CHARGÉ!</h6>
+                        <div class="time">
+                           <i class="bi bi-clock "></i>
+                           <span>4 janvier 2023</span>
+                        </div>
+                        <br>
+                        <h6 style="font-weight: 700;">CONCILIER EMPLOI DU TEMPS CHARGÉ ET SALLE DE SPORT AVEC UN PLANNING SPORTIF</h6>
+                        <br>
+                        <h2>LE PLANNING SPORTIF EN PRATIQUE</h2>
+                        <p>Vous vous demandez comment trouver le temps de faire du sport ? Entre une vie sociale bien remplie, un travail à temps plein ou des cours à l’université, des enfants dont vous vous occupez, il ne vous reste plus beaucoup de temps à la fin de la journée. Sachez qu’il est tout de même possible de concilier pratique d’un sport et emploi du temps chargé. On vous explique comment !</p>
+                        <div class="text-right mt-1" align="right">
+                            <a href="#">Lire la suite
+                                <i class="bi bi-arrow-right" ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="next">
+                <button class="px-3" (click)="lastActualite()">
+                    <i class="bi bi-arrow-left-circle"></i> 
+                </button>
+                <button class="px-3" (click)="nextActualite()">
+                    <i class="bi bi-arrow-right-circle"></i>
+                </button>
+            </div>
+            <br><br> <br>
+        </div>
+        <div class="container" align="center" *ngSwitchCase="'actualite2'">
+            <h3>
+                SUIVEZ <span>NOTRE ACTUALITÉ</span>
+            </h3> 
+            <div class="actualite my-4">
+                <div class="row">
+                    <div class="col-md-6" data-aos="zoom-in">
+                        <img src="../../../../assets/media/actualite2.jpg" >
+                    </div>
+                    <div class="col-md-6" align="left" >
+                        <h6>QUELS SONT LES BIENFAITS DE L'AQUAGYM ?</h6>
+                        <div class="time">
+                           <i class="bi bi-clock "></i>
+                           <span>4 janvier 2023</span>
+                        </div>
+                        <br>
+                        <h6 style="font-weight: 700;">L’AQUAGYM est une activité douce et sans danger est une mine de bienfaits pour la santé et la forme !</h6>
+                        <br>
+                        <p>Les cours d’Aquagym sont un excellent moyen de combiner un entraînement de gym traditionnel avec les merveilleux bienfaits de l’eau. Cela ne prend que quelques séances d’aquagym et vous verrez une grande différence dans votre condition physique globale.</p>
+                        <div class="text-right mt-1" align="right">
+                            <a href="#">Lire la suite
+                                <i class="bi bi-arrow-right" ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="next">
+                <button class="px-3" (click)="lastActualite()">
+                    <i class="bi bi-arrow-left-circle"></i> 
+                </button>
+                <button class="px-3" (click)="nextActualite()">
+                    <i class="bi bi-arrow-right-circle"></i>
+                </button>
+            </div>
+            <br><br> <br>
+        </div>
+        <div class="container" align="center" *ngSwitchCase="'actualite3'">
+            <h3>
+                SUIVEZ <span>NOTRE ACTUALITÉ</span>
+            </h3> 
+            <div class="actualite my-4">
+                <div class="row">
+                    <div class="col-md-6" data-aos="zoom-in">
+                        <img src="../../../../assets/media/actualite3.jpg" >
+                    </div>
+                    <div class="col-md-6" align="left" >
+                        <h6>La combinaison gagnante !</h6>
+                        <div class="time">
+                           <i class="bi bi-clock "></i>
+                           <span>4 janvier 2023</span>
+                        </div>
+                        <br>
+                        <h6 style="font-weight: 700;">La nutrition des sportifs : mode d’emploi</h6>
+                        <br>
+                        <p>Lorsque vous débutez le sport ou si votre pratique est peu intense, une alimentation variée et une bonne hydratation devraient apporter à votre organisme tout ce dont il a besoin pour être en bonne santé. Si vous pratiquez un exercice plus exigeant, vous pouvez ajuster vos apports nutritionnels en fonction de l’effort à fournir et de vos objectifs.</p>
+                        <div class="text-right mt-1" align="right">
+                            <a href="#">Lire la suite
+                                <i class="bi bi-arrow-right" ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="next">
+                <button class="px-3" (click)="lastActualite()">
+                    <i class="bi bi-arrow-left-circle"></i> 
+                </button>
+                <button class="px-3" (click)="nextActualite()">
+                    <i class="bi bi-arrow-right-circle"></i>
+                </button>
+            </div>
+            <br><br> <br>
+        </div>
+        <div class="container" align="center" *ngSwitchCase="'actualite4'">
+            <h3>
+                SUIVEZ <span>NOTRE ACTUALITÉ</span>
+            </h3> 
+            <div class="actualite my-4">
+                <div class="row">
+                    <div class="col-md-6" data-aos="zoom-in">
+                        <img src="../../../../assets/media/actualite4.jpg" >
+                    </div>
+                    <div class="col-md-6" align="left" >
+                        <h6>COMMENT SOIGNER LE MAL DE DOS ?</h6>
+                        <div class="time">
+                           <i class="bi bi-clock "></i>
+                           <span>4 janvier 2023</span>
+                        </div>
+                        <br>
+                        <h6 style="font-weight: 700;">La nutrition des sportifs : mode d’emploi</h6>
+                        <br>
+                        <p>Vous souffrez d’un terrible mal de dos, des réveils encore plus pénibles, vous sentez votre santé se dégrader de jour en jour, vous ne faites pas assez d’exercice sportif et surtout vous ne savez pas lesquels sont le mieux adapter pour gérer votre mal de dos ?</p>
+                        <br>
+                        <p>Ne vous inquiétez plus, la solution et là : vous aller vous débarrasser  de cette sensation de fatigue...</p>
+                        <div class="text-right mt-1" align="right">
+                            <a href="#">Lire la suite
+                                <i class="bi bi-arrow-right" ></i>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="next">
+                <button class="px-3" (click)="lastActualite()">
+                    <i class="bi bi-arrow-left-circle"></i> 
+                </button>
+                <button class="px-3" (click)="nextActualite()">
+                    <i class="bi bi-arrow-right-circle"></i>
+                </button>
+            </div>
+            <br><br> <br>
+        </div>
+    </div>
+   
+
+    <div class="container" id="container2">
+        <div class="row">
+            <div class="col-md-3">
+                <img src="../../../../assets/media/icon.png" >
+            </div>
+            <div class="col-md-3">
+                <h4>CLUB</h4>
+                <p>Contactez-nous au <br> XX XX XX XX XX</p>
+                <p><i class="bi bi-geo-alt-fill" style="color: #79d204;"></i>
+                    Appt 3, N 3 Rue Abdlaziz, Al Fechtali, Rabat 10000</p>
+            </div>
+            <div class="col-md-3">
+                <h4>SERVICES</h4>
+                <h6><a routerLink="/club/activite">Activités</a></h6>
+            </div>
+            <div class="col-md-3">
+                <h4>À PROPOS</h4>
+                <h6><a routerLink="/contact">Contact</a></h6>
+            </div>
+        </div>
+        <div class="row justify-content-center">
+            <button type="button" class="btn btn-light" align="center">
+                <i class="bi bi-instagram"></i>
+            </button> <br>
+            <button type="button" class="btn btn-light">
+                <i class="bi bi-facebook"></i>
+            </button> <br>
+            <button type="button" class="btn btn-light">
+                <i class="bi bi-linkedin"></i>
+            </button> <br>
+            <button type="button" class="btn btn-light">
+                <i class="bi bi-youtube"></i>
+            </button>
+        </div>
+    </div>
+    <br><br>
+</footer>
+
+
+
